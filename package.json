@@ -1,5 +1,5 @@
 {
-  "name": "codemirror",
+  "name": "codemirror-custom",
   "version": "5.59.2",
   "main": "lib/codemirror.js",
   "style": "lib/codemirror.css",
