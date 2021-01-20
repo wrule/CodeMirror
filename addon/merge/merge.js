@@ -732,7 +732,7 @@
     cm.addLineClass(from, "wrap", "CodeMirror-merge-collapsed-line");
     var widget = document.createElement("span");
     widget.className = "CodeMirror-merge-collapsed-widget";
-    widget.title = cm.phrase("Identical text collapsed. Click to expand.");
+    widget.title = cm.phrase("相同的文本已折叠，点击展开");
     var mark = cm.markText(Pos(from, 0), Pos(to - 1), {
       inclusiveLeft: true,
       inclusiveRight: true,
